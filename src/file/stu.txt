@@ -1,0 +1,5 @@
+Student [name=小明, score1=23, score2=22, score3=0]
+Student [name=小明, score1=23, score2=22, score3=11]
+Student [name=小明, score1=23, score2=22, score3=21]
+Student [name=小明, score1=23, score2=22, score3=22]
+Student [name=小明, score1=23, score2=22, score3=112]
