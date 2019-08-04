@@ -13,7 +13,7 @@
         </excludes>
       </resource>
       <resource>
-        <directory>src/file</directory>
+        <directory>file</directory>
         <excludes>
           <exclude>**/*.java</exclude>
         </excludes>
@@ -30,10 +30,40 @@
     </plugins>
   </build>
   <dependencies>
+    <!--mail传输-->
   	<dependency>
   		<groupId>javax.mail</groupId>
   		<artifactId>mail</artifactId>
   		<version>1.4.3</version>
   	</dependency>
+    <!--log4j-->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+    <!--slf4j-->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.21</version>
+    </dependency>
+    <!--mybatis-->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.2.2</version>
+    </dependency>
+    <!--mysql连接的驱动-->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.11</version>
+    </dependency>
   </dependencies>
 </project>

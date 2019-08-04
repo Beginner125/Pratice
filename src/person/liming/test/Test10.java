@@ -15,7 +15,7 @@ public class Test10 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		File file = new File(".");
-		File aimFile = new File("src/file/currentDirInfo.txt");
+		File aimFile = new File("file/currentDirInfo.txt");
 		Map<Character, Integer> total = new HashMap<Character, Integer>();
 		String[] fileInfo;
 		RandomAccessFile inAndOut;
