@@ -12,8 +12,8 @@ import java.util.List;
 
 /**
  * @author liuliming
- * @Description 单独使用mybatis增删查改
- * @Date: Created in 14:002019/8/4
+ * 单独使用mybatis增删查改
+ * Date: Created in 14:002019/8/4
  */
 public class Test32 {
 

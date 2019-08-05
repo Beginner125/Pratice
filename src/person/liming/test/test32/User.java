@@ -2,8 +2,8 @@ package person.liming.test.test32;
 
 /**
  * @author liuliming
- * @Description
- * @Date: Created in 16:092019/8/4
+ * Description
+ * Date: Created in 16:092019/8/4
  */
 public class User {
     private String user_id;
