@@ -14,6 +14,7 @@ public class FieldTypeUtil {
         typeMapping = new HashMap<String, String>();
         typeMapping.put("varchar", "String");
         typeMapping.put("int", "int");
+        typeMapping.put("datetime", "String");
     }
 
     public static String toJavaType(String type){

@@ -105,13 +105,13 @@ public class JavaBeanGenerator implements BeanGenerator {
         re.append(" get"+titleString(filedName));
         re.append("(){\n");
         re.append("\t\treturn this."+filedName);
-        re.append(":\n");
+        re.append(";\n");
         re.append("\t}\n");
         //set·½·¨
         re.append("\tpublic void set");
         re.append(titleString(filedName));
         re.append("("+FieldTypeUtil.toJavaType(fieldType)+" "+filedName+"){\n");
-        re.append("\t\tthis."+filedName+" = "+filedName);
+        re.append("\t\tthis."+filedName+" = "+filedName+";");
         re.append("\n\t}");
         return re.toString();
     }

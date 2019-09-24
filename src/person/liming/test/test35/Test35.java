@@ -25,7 +25,7 @@ public class Test35 {
             //获取数据库连接器
             DatabaseConnector database = new DatabaseConnector();
             //数据库连接q_question表
-            Table table = database.getTables("user");
+            Table table = database.getTables("question");
             //创建生成器
             BeanGenerator generator = new JavaBeanGenerator();
             //生成bean文件
