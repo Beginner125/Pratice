@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author liuliming
- * 使用jdbc进行查询
+ * @Description 使用jdbc进行查询
  */
 public class test29 {
 	

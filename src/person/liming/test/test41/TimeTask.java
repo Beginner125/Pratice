@@ -2,7 +2,6 @@ package person.liming.test.test41;
 
 import java.io.IOException;
 import java.util.Queue;
-import java.util.concurrent.Callable;
 
 /**
  * @author liuliming
@@ -26,7 +25,7 @@ public class TimeTask implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        while (num < test41.num){
+        while (num < Test41.num){
             if(pingQueue.peek() != null){
                 Ping ping = pingQueue.peek();
                 long rap = ((System.currentTimeMillis() - ping.beginTime)/1000);

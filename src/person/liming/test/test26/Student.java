@@ -2,7 +2,7 @@ package person.liming.test.test26;
 
 /**
  * @author liuliming
- * 使用SAX解析一个XML文件，根据XML的文件创建对象
+ * @Description 使用SAX解析一个XML文件，根据XML的文件创建对象
  */
 public class Student {
     

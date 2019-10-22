@@ -5,7 +5,7 @@ import java.util.Observer;
 
 /**
  * @author liuliming
- * @Description
+ * @Description 使用jdk建立观察者模式
  * @Date: Created in 21:562019/9/12
  */
 public class Text extends Observable {

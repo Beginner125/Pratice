@@ -4,7 +4,7 @@ import java.io.IOException;
 
 /**
  * @author liuliming
- * 单例模式获取设置配置信息
+ * @Description 单例模式获取设置配置信息
  */
 public class Test13 {
 	

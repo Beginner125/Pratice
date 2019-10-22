@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author liuliming
- * 写一个ArrayList类的代理，实现和ArrayList类中完全相同的功能，并可以计算每个方法运行的时间
+ * @Description 写一个ArrayList类的代理，实现和ArrayList类中完全相同的功能，并可以计算每个方法运行的时间
  */
 public class Test17 {
 	

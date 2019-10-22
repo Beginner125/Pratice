@@ -11,7 +11,7 @@ import org.xml.sax.SAXException;
 
 /**
  * @author liuliming
- * JAVA SAX解析器-解析XML文档
+ * @Description JAVA SAX解析器-解析XML文档
  */
 public class Test27 {
 

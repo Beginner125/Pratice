@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @author liuliming
- * 写一个爬虫程序，爬取https://sports.163.com/nba/的新闻消息，并且放在文件里，每个文件大小为20条消息。
+ * @Description 写一个爬虫程序，爬取https://sports.163.com/nba/的新闻消息，并且放在文件里，每个文件大小为20条消息。
  */
 public class Test30 {
 

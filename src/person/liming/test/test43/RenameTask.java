@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 /**
  * @author liuliming
- * @Description 将文件夹里面的数据重命名为班级人员的名字
+ * @Description 写一个可以用dos命令行批量重命名的工具
  * @Date: Created in 14:35 2019/10/16
  */
 public class RenameTask {
