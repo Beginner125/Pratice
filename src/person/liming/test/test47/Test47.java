@@ -53,7 +53,7 @@ public class Test47 {
 //                        stringBuilder.append(new String(matcher.group().getBytes("ISO-8859-1"), "utf-8"));
                     }
                 }
-                resultAccessFile.writeBytes(f.getName()+" : "+stringBuilder.toString()+"\r\n");
+                resultAccessFile.writeBytes(f.getName()+" : "+stringBuilder.toString()+"\r\n"+"\r\n");
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (IOException e) {
