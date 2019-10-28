@@ -71,7 +71,7 @@ test4 : @Description 有五个学生，每个学生有3门课（语文、数学、英语）的成绩，写一
 
 test40 : @Description 写一个画CRC卡的框架，使用MVVC模式, 使用redis做数据持久化
 
-test41 : @Description 写一个文本数据分析工具，分为数据采集，数据分析，数据分析结果持久化，数据分析结果展示四个结构，
+test41 : @Description 使用系统的ping功能，使用多线程遍历指定范围的ip地址，将能够ping通的地址保存下来
 
 test42 : @Description 使用线程池写一个生产者与消费者的问题
 
@@ -84,6 +84,8 @@ test45 : @Description 爬取煎蛋网上的树洞信息并存在数据库中
 test46 : @Description 使用java控制鼠标移动到谷歌浏览器bing的输入框中，输入查询的内容并回车，然后截图保存。
 
 test47 : @Description 使用代码将本project下所有Test类的类名和Describe保存到README（便于github上查看）和Test47下的package-info（便于javadoc查看）中@Description.*");
+
+test48 : @Description 使用Robot写一个完整的程序，该程序的作用是用命令行控制鼠标键盘
 
 test5 : @Description 定义一个文件输入流，调用read(byte[]b)方法将文件中的所有内容打印出来(byte数组的大小限制为5)
 

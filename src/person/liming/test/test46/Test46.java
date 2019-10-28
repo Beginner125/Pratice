@@ -14,7 +14,7 @@ import java.util.Random;
  * @Description 使用java控制鼠标移动到谷歌浏览器bing的输入框中，输入查询的内容并回车，然后截图保存。
  * @Date: Created in 10:462019/10/22
  */
-public class test46 {
+public class Test46 {
     public static void main(String[] args) throws AWTException, InterruptedException {
         Robot robot = new Robot();
         Random random = new Random();

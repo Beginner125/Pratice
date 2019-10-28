@@ -60,6 +60,7 @@ public class Test45 {
             textList.set(i, new String(subString.getBytes("ISO-8859-1"), "utf-8"));
         }
 
+
         //将所有获取的数据存在数据库中
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

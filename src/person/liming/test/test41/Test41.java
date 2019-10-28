@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 
 /**
  * @author liuliming
- * @Description 写一个文本数据分析工具，分为数据采集，数据分析，数据分析结果持久化，数据分析结果展示四个结构，
+ * @Description 使用系统的ping功能，使用多线程遍历指定范围的ip地址，将能够ping通的地址保存下来
  * @Date: Created in 16:422019/9/24
  */
 public class Test41 {

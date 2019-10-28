@@ -8,7 +8,7 @@ import java.util.List;
  * @author liuliming
  * @Description 使用jdbc进行查询
  */
-public class test29 {
+public class Test28 {
 	
 	public static void main(String[] args) {
 		QuestionDAO question = new QuestionDAO();
