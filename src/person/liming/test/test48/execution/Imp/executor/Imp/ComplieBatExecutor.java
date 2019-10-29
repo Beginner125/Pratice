@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentLinkedDeque;
  * @Description
  * @Date: Created in 20:502019/10/24
  */
-public class BatExecutor extends AbstractRobotExecutor {
+public class ComplieBatExecutor extends AbstractRobotExecutor {
     @Override
     protected ExecuteResult specificExecute() {
         StringBuilder stringBuilder = new StringBuilder();

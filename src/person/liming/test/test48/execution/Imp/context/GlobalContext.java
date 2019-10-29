@@ -28,7 +28,8 @@ public class GlobalContext extends Context {
         parseRule.put("mousemove +(\\d+,\\d+)", new MouseMoveExecutor());//鼠标移动
         parseRule.put("mousemove +(useimg +\\w+)", new MouseMoveExecutor());//鼠标到指定图标
         parseRule.put("automap", null);//非命令模式
-        parseRule.put("(\\w|,| )+;(\\w|,| )+", new BatExecutor());//批量执行功能
+        parseRule.put("usescript +.+\\.txt", new ScriptExecutor());//使用脚本
+        parseRule.put("(\\w|,| )+;(\\w|,| )+", new ComplieBatExecutor());//批量执行功能
         parseRule.put("keyinput +\\w+", new KeyInputExecutor());//输入键盘按键
         parseRule.put("sclick *", new SingleCmdExecutor());//鼠标单击
         parseRule.put("dclick *", new SingleCmdExecutor());//鼠标双击
@@ -36,6 +37,8 @@ public class GlobalContext extends Context {
         parseRule.put("(addfunc +\\w+ +\\(.+\\))|(usefunc +\\w+)|(findfunc +\\w+)|(delfunc +\\w+)|(modfunc +\\w+ +\\(.+\\))|(listfunc)", new FuncCurdExecutor());//保存函数
         parseRule.put("(addimg +\\w+ +\\(.+\\))|(useimg +\\w+)|(findimg +\\w+)|(delimg +\\w+)|(modimg +\\w+ +\\(.+\\))|(listimg)", new ImgCurdExecutor());//保存函数
         parseRule.put("exit *", new SingleCmdExecutor());//离开程序
+        parseRule.put("help *", new SingleCmdExecutor());//帮助文档
+        parseRule.put("sleep \\d+", new SleepExecutor());//停止n秒
         parseRule.put("!.+", new SysCmdExecutor());
     }
 }

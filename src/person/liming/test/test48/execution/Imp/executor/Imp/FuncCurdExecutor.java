@@ -4,6 +4,7 @@ import person.liming.test.test48.execution.ExecuteResult;
 import person.liming.test.test48.execution.Imp.context.Context;
 import person.liming.test.test48.execution.Imp.context.CurdContext;
 import person.liming.test.test48.execution.Imp.context.GlobalContext;
+import person.liming.test.test48.execution.Imp.context.StringContext;
 import person.liming.test.test48.execution.Imp.executor.AbstractCurdExecutor;
 import person.liming.test.test48.execution.Imp.result.StringExecuteResult;
 import person.liming.test.test48.parse.Imp.CmdExecuteParser;
@@ -15,11 +16,16 @@ import person.liming.test.test48.utils.Operation;
  * @Date: Created in 15:002019/10/26
  */
 public class FuncCurdExecutor extends AbstractCurdExecutor{
-    Operation operation = new Operation(GlobalContext.functions);
-    CurdContext curdContext = (CurdContext)context;
+    Operation operation;
+
+    public FuncCurdExecutor() {
+        super();
+        this.operation = new Operation(GlobalContext.functions);
+    }
 
     @Override
     protected ExecuteResult specificExecute() {
+        CurdContext curdContext = (CurdContext)context;
         //ÅÐ¶Ïº¯ÊýÊÇ·ñ´æÔÚ
         if (curdContext.getCurd() == CurdContext.CURD.add
                 &&  operation.has(curdContext.getName()) ){

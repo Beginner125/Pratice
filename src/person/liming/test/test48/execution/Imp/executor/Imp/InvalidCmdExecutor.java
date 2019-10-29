@@ -11,7 +11,7 @@ import person.liming.test.test48.execution.Imp.result.StringExecuteResult;
  */
 public class InvalidCmdExecutor implements Executor {
 
-    String info = "没有此命令";
+    String info = "没有此命令,你可以使用help来查看所有命令";
 
     public InvalidCmdExecutor() {
     }

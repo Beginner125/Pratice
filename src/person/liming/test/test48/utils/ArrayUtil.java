@@ -74,7 +74,7 @@ public class ArrayUtil {
         int h = arr[0].length;
         int x = 0;
         int y = 0;
-        double min = 0;
+        double min = 20;
         for (int i = 0; i < w; i++) {
             for (int j = 0; j < h; j++) {
                 if(arr[i][j]<=min && !constraint.equal(new Point(i, j))){

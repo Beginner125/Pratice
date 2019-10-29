@@ -33,7 +33,6 @@ public class ImgCurdExecutor extends AbstractCurdExecutor {
 
     @Override
     public ExecuteResult mod() {
-        CurdContext curdContext = (CurdContext)context;
         operation.save(curdContext.getName(), curdContext.getContent());
         StringExecuteResult result = new StringExecuteResult("执行操作成功");
         return result;

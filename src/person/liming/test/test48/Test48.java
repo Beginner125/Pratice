@@ -28,11 +28,12 @@ public class Test48 {
 //        int sourceImgWidth = 1366;
 //        int sourceImgHeight = 760;
 //        BufferedImage sourceImg = robot.createScreenCapture(new Rectangle(0,0,sourceImgWidth, sourceImgHeight));
-//        BufferedImage paramImg = ImageIO.read(new File("F:\\TempraryFile\\param5.png"));
+//        BufferedImage paramImg = ImageIO.read(new File("F:\\TempraryFile\\tianmao\\catCode.png"));
 //
 //        HistogramImagelocator imagelocator = new HistogramImagelocator(sourceImg, paramImg);
 //        Point point = imagelocator.locate();
 //        System.out.println(point.toString());
 //        robot.linerMoveMouse(point.x, point.y, 2);
+//        ImageIO.write(sourceImg, "png", new File("F:\\TempraryFile\\scree.png"));
     }
 }
