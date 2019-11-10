@@ -1,5 +1,4 @@
 package person.liming.test.test49;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,8 +9,8 @@ import java.lang.reflect.Method;
 /**
  * @author liuliming
  * @Description 在五秒之后，使用编译器编译资源文件夹里面的Run类文件并用类装载机装载，并运行其中的run()函数
- * @Date: Created in 8:272019/10/29
- */
+* @Date: Created in 8:272019/10/29
+*/
 public class Test49 {
     public static void main(String[] args) {
         try {
@@ -55,3 +54,4 @@ public class Test49 {
         return this.getClass().getResource("/").getPath();
     }
 }
+
