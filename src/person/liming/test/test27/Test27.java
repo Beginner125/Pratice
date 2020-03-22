@@ -16,7 +16,7 @@ import org.xml.sax.SAXException;
 public class Test27 {
 
 	public static void main(String[] args) {
-		File inputFile = new File("src/file/student.xml");
+		File inputFile = new File("file/student.xml");
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		SAXParser saxParser;
 		

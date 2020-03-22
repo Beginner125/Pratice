@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 
 /**
  * @author liuliming
- * @Description 在五秒之后，使用编译器编译资源文件夹里面的Run类文件并用类装载机装载，并运行其中的run()函数
+ * @Description 在五秒之后，使用编译器编译资源文件夹里面的Run.java并用类装载机装载，并运行其中的run()函数
 * @Date: Created in 8:272019/10/29
 */
 public class Test49 {

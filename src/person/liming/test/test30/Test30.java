@@ -19,7 +19,7 @@ public class Test30 {
 		StringBuffer content;
 		content = repite.Connect("http://localhost:8080/");
 		List<String> out = PatternFast.getImg(content);
-		File file = new File("src/file/url.txt");
+		File file = new File("file/url.txt");
 
 		try {
 			if(!file.exists()){

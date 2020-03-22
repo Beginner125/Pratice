@@ -6,4 +6,5 @@ package person.liming.test.test40;
  * @Date: Created in 12:492019/9/24
  */
 public class Test40 {
+    //Î´×ö
 }

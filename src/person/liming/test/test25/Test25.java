@@ -51,7 +51,7 @@ public class Test25 {
 			message.setRecipient(MimeMessage.RecipientType.TO
 					, new InternetAddress(reciptMail, reciptMailName, "utf-8"));
 			message.setSubject("测试邮件主题", "utf-8");
-			message.setContent("Test/这是邮件的正文", "text/html;charset=UTF-8");
+			message.setContent("Test38/这是邮件的正文", "text/html;charset=UTF-8");
 			message.setSentDate(new Date());
 			message.saveChanges();
 //			OutputStream out = new FileOutputStream("src/file/myEmail.eml");

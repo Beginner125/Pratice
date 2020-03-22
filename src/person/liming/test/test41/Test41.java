@@ -42,8 +42,8 @@ public class Test41 {
         for (int j = 0; j < 256; j++) {
             address[j] = address123+j;
         }
-        executorService.submit(new PingTask(address, pingQueue));
-        executorService.submit(new TimeTask(pingQueue, fileIO));
+        executorService.submit(new PingTask(address, pingQueue));//一口气执行所有ping任务
+        executorService.submit(new TimeTask(pingQueue, fileIO));//对ping任务计时，超时后后将结果存入文件，并结束该ping任务
         executorService.shutdown();
 
     }

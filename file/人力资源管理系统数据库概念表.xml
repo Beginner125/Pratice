@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<table name="权限表(access)">
+		<column>
+			<name>name</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>权限名</note>
+		</column>
+	</table>
+	<table name="权限表(access)">
+		<column>
+			<name>link</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>相关链接，符合正则匹配</note>
+		</column>
+	</table>
+	<table name="权限表(access)">
+		<column>
+			<name>id</name>
+			<type>char</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="角色表(role)">
+		<column>
+			<name>name</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>角色名</note>
+		</column>
+	</table>
+	<table name="角色表(role)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table name="角色-权限表(role_access)">
+		<column>
+			<name>role_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>角色ID</note>
+		</column>
+	</table>
+	<table name="角色-权限表(role_access)">
+		<column>
+			<name>access_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>权限ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>name</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>姓名</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>sex</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>性别</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>identity</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>身份证号</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>picture</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>照片</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>tele</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>电话号码</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>emer_tele</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>紧急联系人</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>address</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>家庭住址</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>native_place</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>籍贯</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>nation</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>民族</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>political</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>政治面貌</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>marriage</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>婚姻状况</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>graduate_school</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>毕业院校</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>highest_degree</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>最高学历</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>account_char</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>户口性质</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>birth_date</name>
+			<type>date</type>
+			<null>NOT NULL</null>
+			<note>出生年月</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>maior</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>毕业专业</note>
+		</column>
+	</table>
+	<table name="员工基本信息表(staff_base_info)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>type</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>员工类型</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>staff_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>员工号</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>staff_pic</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>员工照</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>base_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>基本信息ID</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>base_wages</name>
+			<type>int</type>
+			<null>NOT NULL</null>
+			<note>基本工资</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>post_wages</name>
+			<type>int</type>
+			<null>NOT NULL</null>
+			<note>岗位工资</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>department</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>所在部门</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>begin_worktime</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>用工时间</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>contract</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>订立合同情况</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>contract_type</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>合同类型</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>contract_begintime</name>
+			<type>datetime</type>
+			<null>NULL</null>
+			<note>签订合同时间</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>contract_endtime</name>
+			<type>datetime</type>
+			<null>NULL</null>
+			<note>合同到期时间</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>rank</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>职称</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>post</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>岗位</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>task</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>所做工作</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>wort_place</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>工作地点</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>post_begintime</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>上岗时间</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>superior_id</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>直属上级ID</note>
+		</column>
+	</table>
+	<table name="员工高级信息表(staff_advanced_info)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工-消息-员工表(staff_news)">
+		<column>
+			<name>send_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>发送员工ID</note>
+		</column>
+	</table>
+	<table name="员工-消息-员工表(staff_news)">
+		<column>
+			<name>recive_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>接受员工ID</note>
+		</column>
+	</table>
+	<table name="员工-消息-员工表(staff_news)">
+		<column>
+			<name>news</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>消息内容</note>
+		</column>
+	</table>
+	<table name="员工-消息-员工表(staff_news)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工转岗记录表(transfer_post)">
+		<column>
+			<name>staff_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>员工ID</note>
+		</column>
+	</table>
+	<table name="员工转岗记录表(transfer_post)">
+		<column>
+			<name>record_time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>转岗日期</note>
+		</column>
+	</table>
+	<table name="员工转岗记录表(transfer_post)">
+		<column>
+			<name>orginal_post</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>原岗位</note>
+		</column>
+	</table>
+	<table name="员工转岗记录表(transfer_post)">
+		<column>
+			<name>orginal_department</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>原部门</note>
+		</column>
+	</table>
+	<table name="员工转岗记录表(transfer_post)">
+		<column>
+			<name>now_post</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>所转岗位</note>
+		</column>
+	</table>
+	<table name="员工转岗记录表(transfer_post)">
+		<column>
+			<name>now_department</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>所转部门</note>
+		</column>
+	</table>
+	<table name="员工转岗记录表(transfer_post)">
+		<column>
+			<name>change_reason</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>转岗原因</note>
+		</column>
+	</table>
+	<table name="员工转岗记录表(transfer_post)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="部门表(department)">
+		<column>
+			<name>name</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>部门名称</note>
+		</column>
+	</table>
+	<table name="部门表(department)">
+		<column>
+			<name>staff_num</name>
+			<type>int</type>
+			<null>NOT NULL</null>
+			<note>员工数</note>
+		</column>
+	</table>
+	<table name="部门表(department)">
+		<column>
+			<name>superior_department</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>上级部门ID</note>
+		</column>
+	</table>
+	<table name="部门表(department)">
+		<column>
+			<name>level</name>
+			<type>int</type>
+			<null>NOT NULL</null>
+			<note>部门等级</note>
+		</column>
+	</table>
+	<table name="部门表(department)">
+		<column>
+			<name>email</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>部门邮箱</note>
+		</column>
+	</table>
+	<table name="部门表(department)">
+		<column>
+			<name>leading_staff</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>部门负责人ID</note>
+		</column>
+	</table>
+	<table name="部门表(department)">
+		<column>
+			<name>address</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>部门地址</note>
+		</column>
+	</table>
+	<table name="部门表(department)">
+		<column>
+			<name>duty</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>部门职责</note>
+		</column>
+	</table>
+	<table name="部门表(department)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>applicant_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>申请人ID</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>type_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>类型ID</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>file</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>附件</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>content</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>申请内容</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>申请日期</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>reason</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>申请原因</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>one_auditor</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>一级审批人ID</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>two_aduitor</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>二级审批人ID</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>three_aduitor</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>三级审批人ID</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>end_time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>审批截止日期</note>
+		</column>
+	</table>
+	<table name="员工申请表(applicant)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="申请模板表(applicant_tamplate)">
+		<column>
+			<name>name</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>模板名</note>
+		</column>
+	</table>
+	<table name="申请模板表(applicant_tamplate)">
+		<column>
+			<name>field_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>字段模板ID</note>
+		</column>
+	</table>
+	<table name="申请模板表(applicant_tamplate)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="申请字段表(applicant_field)">
+		<column>
+			<name>name</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>字段名</note>
+		</column>
+	</table>
+	<table name="申请字段表(applicant_field)">
+		<column>
+			<name>value</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>字段值</note>
+		</column>
+	</table>
+	<table name="申请字段表(applicant_field)">
+		<column>
+			<name>application_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>申请ID</note>
+		</column>
+	</table>
+	<table name="申请字段表(applicant_field)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="申请字段模板表(applicant_field_tamplate)">
+		<column>
+			<name>name</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>字段名</note>
+		</column>
+	</table>
+	<table name="申请字段模板表(applicant_field_tamplate)">
+		<column>
+			<name>type</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>字段类型</note>
+		</column>
+	</table>
+	<table name="申请字段模板表(applicant_field_tamplate)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="人才库表(personels)">
+		<column>
+			<name>name</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>姓名</note>
+		</column>
+	</table>
+	<table name="人才库表(personels)">
+		<column>
+			<name>age</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>年龄</note>
+		</column>
+	</table>
+	<table name="人才库表(personels)">
+		<column>
+			<name>pic</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>照片</note>
+		</column>
+	</table>
+	<table name="人才库表(personels)">
+		<column>
+			<name>hunting_post</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>求职岗位</note>
+		</column>
+	</table>
+	<table name="人才库表(personels)">
+		<column>
+			<name>tel</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>联系方式</note>
+		</column>
+	</table>
+	<table name="人才库表(personels)">
+		<column>
+			<name>graduate_school</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>毕业院校</note>
+		</column>
+	</table>
+	<table name="人才库表(personels)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table name="人才库表(personels)">
+		<column>
+			<name>marriage</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>是否已婚</note>
+		</column>
+	</table>
+	<table name="人才库表(personels)">
+		<column>
+			<name>reason</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>入库原因</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工证书表(staff_cert)">
+		<column>
+			<name>name</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>证书名</note>
+		</column>
+	</table>
+	<table name="员工证书表(staff_cert)">
+		<column>
+			<name>orgnaziton</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>证书颁发机构</note>
+		</column>
+	</table>
+	<table name="员工证书表(staff_cert)">
+		<column>
+			<name>begin_time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>证书颁发时间</note>
+		</column>
+	</table>
+	<table name="员工证书表(staff_cert)">
+		<column>
+			<name>end_time</name>
+			<type>datetime</type>
+			<null>NULL</null>
+			<note>证书到期时间</note>
+		</column>
+	</table>
+	<table name="员工证书表(staff_cert)">
+		<column>
+			<name>owner_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>证书拥有人ID</note>
+		</column>
+	</table>
+	<table name="员工证书表(staff_cert)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工发起签到表(staff_check_require)">
+		<column>
+			<name>applicant_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>发起人ID</note>
+		</column>
+	</table>
+	<table name="员工发起签到表(staff_check_require)">
+		<column>
+			<name>date</name>
+			<type>date</type>
+			<null>NOT NULL</null>
+			<note>签到日期</note>
+		</column>
+	</table>
+	<table name="员工发起签到表(staff_check_require)">
+		<column>
+			<name>begin_time</name>
+			<type>time</type>
+			<null>NOT NULL</null>
+			<note>签到开始时间</note>
+		</column>
+	</table>
+	<table name="员工发起签到表(staff_check_require)">
+		<column>
+			<name>end_time</name>
+			<type>time</type>
+			<null>NOT NULL</null>
+			<note>签到结束时间</note>
+		</column>
+	</table>
+	<table name="员工发起签到表(staff_check_require)">
+		<column>
+			<name>place</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>签到地点</note>
+		</column>
+	</table>
+	<table name="员工发起签到表(staff_check_require)">
+		<column>
+			<name>everyday</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>是否每日执行</note>
+		</column>
+	</table>
+	<table name="员工发起签到表(staff_check_require)">
+		<column>
+			<name>aim_staffs</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>参与考勤人员ID</note>
+		</column>
+	</table>
+	<table name="员工发起签到表(staff_check_require)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工签到表(staff_check)">
+		<column>
+			<name>staff_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>员工ID</note>
+		</column>
+	</table>
+	<table name="员工签到表(staff_check)">
+		<column>
+			<name>sign_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>参与的签到ID</note>
+		</column>
+	</table>
+	<table name="员工签到表(staff_check)">
+		<column>
+			<name>sign_if</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>是否已签到</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工待办表(staff_dealt)">
+		<column>
+			<name>date</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>日期</note>
+		</column>
+	</table>
+	<table name="员工待办表(staff_dealt)">
+		<column>
+			<name>content</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>待办内容</note>
+		</column>
+	</table>
+	<table name="员工待办表(staff_dealt)">
+		<column>
+			<name>finish</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>是否完成</note>
+		</column>
+	</table>
+	<table name="员工待办表(staff_dealt)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="休假员工表(vacation_staff)">
+		<column>
+			<name>begin_time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>休假开始日期</note>
+		</column>
+	</table>
+	<table name="休假员工表(vacation_staff)">
+		<column>
+			<name>end_time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>休假结束日期</note>
+		</column>
+	</table>
+	<table name="休假员工表(vacation_staff)">
+		<column>
+			<name>reason</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>休假原因</note>
+		</column>
+	</table>
+	<table name="休假员工表(vacation_staff)">
+		<column>
+			<name>staff_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>休假人ID</note>
+		</column>
+	</table>
+	<table name="休假员工表(vacation_staff)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="出差员工表(business_travel_staff)">
+		<column>
+			<name>begin_time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>出差开始日期</note>
+		</column>
+	</table>
+	<table name="出差员工表(business_travel_staff)">
+		<column>
+			<name>end_time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>出差结束日期</note>
+		</column>
+	</table>
+	<table name="出差员工表(business_travel_staff)">
+		<column>
+			<name>place</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>出差地点</note>
+		</column>
+	</table>
+	<table name="出差员工表(business_travel_staff)">
+		<column>
+			<name>reason</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>出差原因</note>
+		</column>
+	</table>
+	<table name="出差员工表(business_travel_staff)">
+		<column>
+			<name>staff_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>出差人ID</note>
+		</column>
+	</table>
+	<table name="出差员工表(business_travel_staff)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工账号表(staff_acount)">
+		<column>
+			<name>account</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>账号</note>
+		</column>
+	</table>
+	<table name="员工账号表(staff_acount)">
+		<column>
+			<name>password</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>密码</note>
+		</column>
+	</table>
+	<table name="员工账号表(staff_acount)">
+		<column>
+			<name>roles_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>所有角色ID</note>
+		</column>
+	</table>
+	<table name="员工账号表(staff_acount)">
+		<column>
+			<name>staff_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>员工ID</note>
+		</column>
+	</table>
+	<table name="员工账号表(staff_acount)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工奖惩表(reward_punish)">
+		<column>
+			<name>type</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>奖惩类型</note>
+		</column>
+	</table>
+	<table name="员工奖惩表(reward_punish)">
+		<column>
+			<name>money</name>
+			<type>int</type>
+			<null>NOT NULL</null>
+			<note>奖惩金额</note>
+		</column>
+	</table>
+	<table name="员工奖惩表(reward_punish)">
+		<column>
+			<name>date</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>奖惩日期</note>
+		</column>
+	</table>
+	<table name="员工奖惩表(reward_punish)">
+		<column>
+			<name>reason</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>奖惩缘由</note>
+		</column>
+	</table>
+	<table name="员工奖惩表(reward_punish)">
+		<column>
+			<name>send_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>发起人ID</note>
+		</column>
+	</table>
+	<table name="员工奖惩表(reward_punish)">
+		<column>
+			<name>recive_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>接受人ID</note>
+		</column>
+	</table>
+	<table name="员工奖惩表(reward_punish)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工公告表(staff_notices)">
+		<column>
+			<name>send_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>发起人ID</note>
+		</column>
+	</table>
+	<table name="员工公告表(staff_notices)">
+		<column>
+			<name>recive_ids</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>所有通知人ID</note>
+		</column>
+	</table>
+	<table name="员工公告表(staff_notices)">
+		<column>
+			<name>content</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>公告内容</note>
+		</column>
+	</table>
+	<table name="员工公告表(staff_notices)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="培训表(train)">
+		<column>
+			<name>applicant_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>发起人ID</note>
+		</column>
+	</table>
+	<table name="培训表(train)">
+		<column>
+			<name>title</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>培训主题</note>
+		</column>
+	</table>
+	<table name="培训表(train)">
+		<column>
+			<name>place</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>培训地点</note>
+		</column>
+	</table>
+	<table name="培训表(train)">
+		<column>
+			<name>speecher</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>培训讲师</note>
+		</column>
+	</table>
+	<table name="培训表(train)">
+		<column>
+			<name>begin_time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>培训开始日期</note>
+		</column>
+	</table>
+	<table name="培训表(train)">
+		<column>
+			<name>end_time</name>
+			<type>datetime</type>
+			<null>NOT NULL</null>
+			<note>培训结束日期</note>
+		</column>
+	</table>
+	<table name="培训表(train)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+	<table name="培训表(train)">
+		<column>
+			<name>test_way</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>考核方式</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="员工培训表(staff_train)">
+		<column>
+			<name>staff_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>参与培训员工ID</note>
+		</column>
+	</table>
+	<table name="员工培训表(staff_train)">
+		<column>
+			<name>train_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>参与培训ID</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="每月员工薪水表(month_wages_record)">
+		<column>
+			<name>date</name>
+			<type>date</type>
+			<null>NOT NULL</null>
+			<note>日期</note>
+		</column>
+	</table>
+	<table name="每月员工薪水表(month_wages_record)">
+		<column>
+			<name>time</name>
+			<type>time</type>
+			<null>NOT NULL</null>
+			<note>时间</note>
+		</column>
+	</table>
+	<table name="每月员工薪水表(month_wages_record)">
+		<column>
+			<name>staff_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>领薪人ID</note>
+		</column>
+	</table>
+	<table name="每月员工薪水表(month_wages_record)">
+		<column>
+			<name>base_wages</name>
+			<type>int</type>
+			<null>NOT NULL</null>
+			<note>基本工资</note>
+		</column>
+	</table>
+	<table name="每月员工薪水表(month_wages_record)">
+		<column>
+			<name>fixed_wages</name>
+			<type>int</type>
+			<null>NOT NULL</null>
+			<note>固定工资</note>
+		</column>
+	</table>
+	<table name="每月员工薪水表(month_wages_record)">
+		<column>
+			<name>variable_wages</name>
+			<type>int</type>
+			<null>NULL</null>
+			<note>浮动工资</note>
+		</column>
+	</table>
+	<table name="每月员工薪水表(month_wages_record)">
+		<column>
+			<name>all_wages</name>
+			<type>int</type>
+			<null>NOT NULL</null>
+			<note>总工资</note>
+		</column>
+	</table>
+	<table name="每月员工薪水表(month_wages_record)">
+		<column>
+			<name>variable_explain</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>浮动工资详情</note>
+		</column>
+	</table>
+	<table>
+		<column/>
+	</table>
+	<table name="调薪表(change_wages_record)">
+		<column>
+			<name>send_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>发起人ID</note>
+		</column>
+	</table>
+	<table name="调薪表(change_wages_record)">
+		<column>
+			<name>recive_id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>接收人ID</note>
+		</column>
+	</table>
+	<table name="调薪表(change_wages_record)">
+		<column>
+			<name>date</name>
+			<type>date</type>
+			<null>NOT NULL</null>
+			<note>日期</note>
+		</column>
+	</table>
+	<table name="调薪表(change_wages_record)">
+		<column>
+			<name>money</name>
+			<type>int</type>
+			<null>NOT NULL</null>
+			<note>调薪金额</note>
+		</column>
+	</table>
+	<table name="调薪表(change_wages_record)">
+		<column>
+			<name>reason</name>
+			<type>varchar</type>
+			<null>NULL</null>
+			<note>调薪缘由</note>
+		</column>
+	</table>
+	<table name="调薪表(change_wages_record)">
+		<column>
+			<name>id</name>
+			<type>varchar</type>
+			<null>NOT NULL</null>
+			<note>ID</note>
+		</column>
+	</table>
+</root>

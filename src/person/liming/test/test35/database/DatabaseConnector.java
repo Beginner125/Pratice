@@ -4,6 +4,7 @@ import person.liming.test.test35.Config.Configurer;
 import person.liming.test.test35.database.databaseJava.Table;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -34,7 +35,18 @@ public class DatabaseConnector {
         connection = DriverManager.getConnection(URL+DATABASE+PERT, USER, PWD);
     }
 
-    public Table getTables(String tableName) throws SQLException {
+    public List<String> getTablesName() throws SQLException {
+        List<String> list = new ArrayList<>();
+        DatabaseMetaData meta = connection.getMetaData();
+        ResultSet rs = meta.getTables(DATABASE, null, null,
+                new String[] { "TABLE" });
+        while (rs.next()) {
+            list.add(rs.getString(3));
+        }
+        return list;
+    }
+
+    public Table getTable(String tableName) throws SQLException {
         //获取元数据
         Statement statement = connection.createStatement();
         ResultSet resultSet = statement.executeQuery("select * from "+tableName);

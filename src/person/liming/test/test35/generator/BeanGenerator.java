@@ -11,17 +11,13 @@ import java.io.IOException;
  */
 public interface BeanGenerator {
 
-    //通过table生成Bean
+    /**
+     * 通过table生成Bean
+     * */
     public void generateBean(Table table) throws IOException;
 
-    //生成序列化id
-    String generateBeanSerializeId();
-
-    //生成类头
-    String generateBeanClassHead(String tableName);
-
-    //生成类尾
-    String generateBeanClassTail();
+    //生成类名
+    String generateBeanClassName(String tableName);
 
     //生成get和set方法
     String generateBeanGetSet(String fieldType, String filedName);

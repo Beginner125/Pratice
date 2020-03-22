@@ -18,7 +18,7 @@ public class Test12 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Properties pro = new Properties();
-		File file = new File("src/file/class.properties");
+		File file = new File("file/class.properties");
 		InputStream in;
 		
 		try {

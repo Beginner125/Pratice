@@ -13,9 +13,9 @@ public class Configuration {
 	
 	private static Configuration ConfigInstance;
 	
-	public Configuration() throws IOException {
+	private Configuration() throws IOException {
 		Properties pro = new Properties();
-		File file = new File("src/file/class.properties");
+		File file = new File("file/class.properties");
 		InputStream in;
 		
 		if(!file.exists()){

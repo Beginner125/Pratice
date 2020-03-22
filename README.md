@@ -1,6 +1,3 @@
-# Pratice
-## 做练习的代码
-
 test1 : @Description 取出一个字符串中字母出现的次数。如：字符串：”abcdekka27qoq”，输出各个字符的次数
 
 test10 : @Description 把当前文件中的所有文本拷贝，存入一个txt文件，统计每个字符出现的次数并输出
@@ -61,7 +58,7 @@ test35 : @Description 根据数据库生成bean文件
 
 test36 : @Description
 
-test37 : @Description 用于写力扣上的答题代码
+test37 : @Description 写一个类，使用状态模式，该类每次调用一个方法后会改变状态，之后该方法的调用效果会改变。
 
 test38 : @Description 使用jdk建立观察者模式
 
@@ -87,7 +84,25 @@ test47 : @Description 使用代码将本project下所有Test类的类名和Describe保存到READM
 
 test48 : @Description 使用Robot写一个完整的程序，该程序的作用是用命令行控制鼠标键盘
 
+test49 : @Description 在五秒之后，使用编译器编译资源文件夹里面的Run.java并用类装载机装载，并运行其中的run()函数
+
 test5 : @Description 定义一个文件输入流，调用read(byte[]b)方法将文件中的所有内容打印出来(byte数组的大小限制为5)
+
+test50 : @Description Java中模拟购物网站的购物车
+
+test51 : @Description 将字符串以倒Z字形输出
+
+test52 : @Description 写一个有限状态机，该状态机能够接受像 a+b=c a-b<c a*b>c 这样的数学等式
+
+test53 : @Description 写来自用，学英语的
+
+test54 : @Description 写一个保存生词的程序，将复制的单词自动保存到txt文件当中。
+
+test55 : @Description 写一个程序，可以根据一定格式的数据创建有限状态机，同时可以用图形界面画状态机生成格式数据。
+
+test56 : @Description 随机组合日语平假名输出，学日语用
+
+test57 : @Description 装载XML，根据该XML文件（该文件中包含数据库表的信息），创建建立mysql数据库表的语句@Description
 
 test6 : @Description 自定义字符输入流的包装类，通过这个包装类对底层字符输入流进行包装，@Description 让程序通过这个包装类读取某个文本文件（例如，一个java源文件）时，能够在读取的每行前面都加上有行号和冒号
 

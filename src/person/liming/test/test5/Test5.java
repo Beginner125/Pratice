@@ -13,7 +13,8 @@ public class Test5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		File file = new File("src/file/stu.txt");
+		File file = new File("file/stu.txt");
+		System.out.println(file.getAbsolutePath());
 		byte[] data = new byte[5];
 		FileInputStream input;
 		

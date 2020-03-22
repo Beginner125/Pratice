@@ -30,17 +30,8 @@ public class ServerClient {
 		String str;
 		Scanner scan = new Scanner(System.in);
 		Socket socket = null;
-		
-		ss = new ServerSocket(port);
-		socket = ss.accept();
-		
-		//获得连接
-		System.out.println("获得连接, 等待传输文件");
-		InputStream in = socket.getInputStream();
-		OutputStream out; 
-		byte[] buffer = new byte[BUFFER_SIZE];
-		int flag;
-		
+		OutputStream out;
+
 		//输入文件传输目的地
 		System.out.println("输入文件传输目的地");
 		str = scan.next();
@@ -50,7 +41,16 @@ public class ServerClient {
 			file.createNewFile();
 		}
 		out = new FileOutputStream(file);
-		
+
+		ss = new ServerSocket(port);
+		socket = ss.accept();
+
+		//获得连接
+		System.out.println("获得连接, 等待传输文件");
+		InputStream in = socket.getInputStream();
+		byte[] buffer = new byte[BUFFER_SIZE];
+		int flag;
+
 		System.out.println("开始传输文件");
 		while(true){
 			while( (flag = in.read(buffer)) != -1 ){

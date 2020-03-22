@@ -12,7 +12,7 @@ public class Test6 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			SymbolInputStream input = new SymbolInputStream("src/file/stu.txt");
+			SymbolInputStream input = new SymbolInputStream("file/stu.txt");
 			System.out.println(input.readLine());
 			System.out.println(input.readLine(1));
 			input.close();
