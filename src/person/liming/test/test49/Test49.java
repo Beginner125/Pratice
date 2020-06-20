@@ -22,6 +22,7 @@ public class Test49 {
 
             Runtime runtime = Runtime.getRuntime();
             Process process = runtime.exec("javac F:\\WorkSpace\\Pratice\\file\\Run.java -d "+path);
+            System.out.println("javac F:\\WorkSpace\\Pratice\\file\\Run.java -d "+path);
             InputStream inputStream = process.getInputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             String result;

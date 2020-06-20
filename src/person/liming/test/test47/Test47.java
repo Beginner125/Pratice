@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -35,7 +39,43 @@ public class Test47 {
             e.printStackTrace();
         }
 
-        //遍历所有test包
+        int maxNum = 1;
+        for(File f:sub1){
+            String name = f.getName();
+            int num = Integer.valueOf(name.substring(4, name.length()));
+            if(maxNum < num){
+                maxNum = num;
+            }
+        }
+        try {
+            for (int i = 1; i < maxNum; i++) {
+                File testFile = new File(file.getAbsolutePath()+"/test"+String.valueOf(i)+"/"+toFirstUpperCase("test"+String.valueOf(i)+".java"));
+                if(!testFile.exists()){
+                    System.out.println("不存在文件："+testFile.exists());
+                    continue;
+                }
+                RandomAccessFile randomAccessFile = null;
+                    randomAccessFile = new RandomAccessFile(testFile, "r");
+                    StringBuilder stringBuilder = new StringBuilder();
+                    String line;
+                    while((line = randomAccessFile.readLine()) != null){
+                        Pattern pattern = Pattern.compile("@Description.*");
+                        Matcher matcher = pattern.matcher(line);
+                        if (matcher.find()){
+                            String temp = matcher.group();
+                            stringBuilder.append(temp.substring(12, temp.length()));
+                        }
+                    }
+                    resultAccessFile.writeBytes(testFile.getName().split("\\.")[0]+" : "+stringBuilder.toString()+"\r\n"+"\r\n");
+            }
+            resultAccessFile.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+/*        //无序遍历所有test包
         for(File f:sub1){
             File testFile = new File(f.getPath()+"/"+toFirstUpperCase(f.getName()+".java"));
             try {
@@ -57,7 +97,7 @@ public class Test47 {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }*/
 
-        }
     }
 }
