@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Pratice:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31338637-bc0f-49fb-8dc5-ef2bc3194f17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Pratice_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/person/liming/test/test58/Test58.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/person/liming/test/test47/Test47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/person/liming/test/test47/Test47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/person/liming/test/test49/Test49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/person/liming/test/test49/Test49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Pratice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/person/liming/test/test49/Run.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/person/liming/test/test49/Test49.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/person/liming/test/test49/Test49.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Pratice" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/person/liming/test/test47/Test47.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/person/liming/test/test58/Test58.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="HTTP Request" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>description</find>
+      <find>Ping</find>
+      <find>爬虫</find>
+      <find>loadClass</find>
+      <find>生成</find>
+      <find>命名</find>
+      <find>线程池</find>
+      <find>excel</find>
+      <find>jdbc</find>
+      <find>name</find>
+      <find>bean</find>
+      <find>test57</find>
+      <find>类装载</find>
+      <find>创建</find>
+      <find>线程</find>
+      <find>readm</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/stu.txt" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test5/Test5.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test6/Test6.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test12/Test12.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test13/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test15/Test15.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test21/ServerClient.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test26/Test26.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test30/Test30.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test34/Test34.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test37/Test37.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test38/Test.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test38/Test38.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test39/model/concrete/CellMatrix.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test40/Test40.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test41/TimeTask.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test41/Test41.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test43/Test43.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test44/Test44.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test53/Test53.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test54/Test54.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test55/Test54.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test56/Test55.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test56/Test56.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test57/QuestionDAO.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test57/databaseDAO.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test28/Test28.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test27/Test27.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test27/UserHandler.java" />
+        <option value="$PROJECT_DIR$/file/人力资源管理系统数据库概念表.xml" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test57/DatabaseDAO.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test57/DataTableHandler.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test57/DataTable.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test57/DataTableCol.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test57/Test57.java" />
+        <option value="$PROJECT_DIR$/file/beanGenerator.properties" />
+        <option value="$PROJECT_DIR$/file/java/User.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test35/Test35.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test35/database/DatabaseConnector.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test35/generator/generatorImpl/JavaBeanGenerator.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test35/util/FieldTypeUtil.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test35/generator/BeanGenerator.java" />
+        <option value="$PROJECT_DIR$/file/JavaBeanTemplate.java" />
+        <option value="$PROJECT_DIR$/file/JavaBeanGetSetTemplate.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test35/generator/generatorImpl/JavaBeanTemplateGenerator.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test35/generator/generatorImpl/JavaBeanJointGenerator.java" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test49/Test49.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test58/Test58.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/person/liming/test/test47/Test47.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Pratice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Pratice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="384" />
+    <option name="width" value="697" />
+    <option name="height" value="391" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pratice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pratice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pratice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pratice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pratice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test47" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pratice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test58" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last.edited.regexp" value="${ClassName}" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/file" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/person/liming/test/test6/SymbolInputStream.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="person.liming.test.Test35" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="person.liming.test.test35.util" />
+      <recent name="person.liming.test.test35.database" />
+      <recent name="person.liming.test.test35.generator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\Pratice\file" />
+      <recent name="F:\WorkSpace\Pratice\src\person\liming\test\test36" />
+      <recent name="F:\WorkSpace\Pratice\src\person\liming\test\test32\mapper" />
+      <recent name="F:\WorkSpace\Pratice" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="person.liming.test.test57" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\Pratice\file" />
+      <recent name="F:\WorkSpace\Pratice\src\person\liming\test\test48\resolve" />
+      <recent name="F:\WorkSpace\Pratice\src\person\liming\test\test48\interaction" />
+      <recent name="F:\WorkSpace\Pratice\src\person\liming\test\test36" />
+      <recent name="F:\WorkSpace\Pratice\src\person\liming\test\test32\mapper" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://cn.bing.com" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1604467293000" />
+                <option name="domain" value="baidu.com" />
+                <option name="name" value="BAIDUID" />
+                <option name="path" value="/" />
+                <option name="value" value="5D8A0EC6922E43C3F97AB18FC5EF1233:FG=1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1606627343000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="MUID" />
+                <option name="path" value="/" />
+                <option name="value" value="0135526E80B16B9933F65C65819F6AF0" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1606627325000" />
+                <option name="domain" value="cn.bing.com" />
+                <option name="name" value="MUIDB" />
+                <option name="path" value="/" />
+                <option name="value" value="0135526E80B16B9933F65C65819F6AF0" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1636089743000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="SRCHD" />
+                <option name="path" value="/" />
+                <option name="value" value="AF=NOFORM" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1636089743000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="SRCHUID" />
+                <option name="path" value="/" />
+                <option name="value" value="V=2&amp;GUID=5A49975448DA42129152AFBEB2765386&amp;dmnchg=1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1636089743000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="SRCHUSR" />
+                <option name="path" value="/" />
+                <option name="value" value="DOB=20191105" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="_EDGE_S" />
+                <option name="path" value="/" />
+                <option name="value" value="SID=3237A51D18626B4C100FAB16194C6AB3" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1606627325000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="_EDGE_V" />
+                <option name="path" value="/" />
+                <option name="value" value="1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="_SS" />
+                <option name="path" value="/" />
+                <option name="value" value="SID=3237A51D18626B4C100FAB16194C6AB3" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://cn.bing.com" />
+          <option name="urlPath" value="/search" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="q" />
+                <option name="value" value="双方的免责条款是否对第三人有效" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="go" />
+                <option name="value" value="搜索" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="qs" />
+                <option name="value" value="ds" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="form" />
+                <option name="value" value="QBRE" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1604467293000" />
+                <option name="domain" value="baidu.com" />
+                <option name="name" value="BAIDUID" />
+                <option name="path" value="/" />
+                <option name="value" value="5D8A0EC6922E43C3F97AB18FC5EF1233:FG=1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1606627325000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="MUID" />
+                <option name="path" value="/" />
+                <option name="value" value="0135526E80B16B9933F65C65819F6AF0" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1606627325000" />
+                <option name="domain" value="cn.bing.com" />
+                <option name="name" value="MUIDB" />
+                <option name="path" value="/" />
+                <option name="value" value="0135526E80B16B9933F65C65819F6AF0" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1636089725000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="SRCHD" />
+                <option name="path" value="/" />
+                <option name="value" value="AF=NOFORM" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1636089725000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="SRCHUID" />
+                <option name="path" value="/" />
+                <option name="value" value="V=2&amp;GUID=55109A0454404C7E8FA41882101AE177&amp;dmnchg=1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1636089725000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="SRCHUSR" />
+                <option name="path" value="/" />
+                <option name="value" value="DOB=20191105" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="_EDGE_S" />
+                <option name="path" value="/" />
+                <option name="value" value="F=1&amp;SID=2317936BA74F683725709D60A66169B4" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1606627325000" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="_EDGE_V" />
+                <option name="path" value="/" />
+                <option name="value" value="1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="bing.com" />
+                <option name="name" value="_SS" />
+                <option name="path" value="/" />
+                <option name="value" value="SID=2317936BA74F683725709D60A66169B4" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://cn.bing.com" />
+          <option name="urlPath" value="/search" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="q" />
+                <option name="value" value="天猫" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="form" />
+                <option name="value" value="ENRCV1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="q" />
+                <option name="value" value="天猫" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="form" />
+                <option name="value" value="ENRCV1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="q" />
+                <option name="value" value="原来" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="qs" />
+                <option name="value" value="n" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="form" />
+                <option name="value" value="QBRE" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sp" />
+                <option name="value" value="-1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="pq" />
+                <option name="value" value="原来" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sc" />
+                <option name="value" value="10-2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="sk" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="cvid" />
+                <option name="value" value="CB9ADD12B25042458B6BC391A9E9EAE1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1604467293000" />
+                <option name="domain" value="baidu.com" />
+                <option name="name" value="BAIDUID" />
+                <option name="path" value="/" />
+                <option name="value" value="5D8A0EC6922E43C3F97AB18FC5EF1233:FG=1" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://cn.bing.com" />
+          <option name="urlPath" value="/search" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="q" />
+                <option name="value" value="天猫" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="form" />
+                <option name="value" value="ENRCV1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="q" />
+                <option name="value" value="天猫" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="form" />
+                <option name="value" value="ENRCV1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://fanyi.baidu.com" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://cn.bing.com" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://ynuf.alipay.com" />
+          <option name="urlPath" value="/service/um.json" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://ynuf.alipay.com/service/um.json" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://search.yhd.com/hotWord.do" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="rtnNum" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="keyword" />
+                <option name="value" value="%E9%A6%99%E5%A5%88%E5%84%BF%E9%A6%99%E6%B0%B4" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="categoryId" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="provinceId" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="cityId" />
+                <option name="value" value="2817" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="callback" />
+                <option name="value" value="keywordRecommendCallback" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://cn.bing.com" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="value" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://cn.bing.com" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="value" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1572584280000" />
+                <option name="domain" value="baidu.com" />
+                <option name="name" value="BDORZ" />
+                <option name="path" value="/" />
+                <option name="value" value="27315" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://cn.bing.com" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="value" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.baidu.com" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="name" />
+                <option name="value" value="value" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="?" />
+      <command value="ls" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test47">
+    <configuration name="Test35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="person.liming.test.test35.Test35" />
+      <module name="Pratice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="person.liming.test.test35.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="person.liming.test.test47.Test47" />
+      <module name="Pratice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="person.liming.test.test47.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="person.liming.test.test49.Test49" />
+      <module name="Pratice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="person.liming.test.test49.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test57" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="person.liming.test.test57.Test57" />
+      <module name="Pratice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="person.liming.test.test57.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test58" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="person.liming.test.test58.Test58" />
+      <module name="Pratice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="person.liming.test.test58.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test57" />
+      <item itemvalue="Application.Test35" />
+      <item itemvalue="Application.Test47" />
+      <item itemvalue="Application.Test49" />
+      <item itemvalue="Application.Test58" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test47" />
+        <item itemvalue="Application.Test58" />
+        <item itemvalue="Application.Test49" />
+        <item itemvalue="Application.Test35" />
+        <item itemvalue="Application.Test57" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31338637-bc0f-49fb-8dc5-ef2bc3194f17" name="Default Changelist" comment="" />
+      <created>1564794166070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572929395797</updated>
+      <workItem from="1564794172939" duration="1851000" />
+      <workItem from="1564806201400" duration="8436000" />
+      <workItem from="1564898399277" duration="2806000" />
+      <workItem from="1564903811397" duration="8387000" />
+      <workItem from="1564927500099" duration="5068000" />
+      <workItem from="1564964386074" duration="95000" />
+      <workItem from="1564974278051" duration="1756000" />
+      <workItem from="1564983138766" duration="19358000" />
+      <workItem from="1565060009694" duration="104000" />
+      <workItem from="1565060296439" duration="578000" />
+      <workItem from="1565061110381" duration="1481000" />
+      <workItem from="1565062831732" duration="25000" />
+      <workItem from="1565074512411" duration="231000" />
+      <workItem from="1565074951723" duration="128000" />
+      <workItem from="1565076097419" duration="3024000" />
+      <workItem from="1565086213621" duration="335000" />
+      <workItem from="1565091041792" duration="6268000" />
+      <workItem from="1565146970629" duration="439000" />
+      <workItem from="1565180326795" duration="278000" />
+      <workItem from="1565180613802" duration="4000" />
+      <workItem from="1566703931453" duration="2686000" />
+      <workItem from="1566778070835" duration="187000" />
+      <workItem from="1566890584783" duration="626000" />
+      <workItem from="1566892210476" duration="138000" />
+      <workItem from="1567063735679" duration="13278000" />
+      <workItem from="1567151624214" duration="1420000" />
+      <workItem from="1567319639700" duration="751000" />
+      <workItem from="1567326261834" duration="26000" />
+      <workItem from="1567326337693" duration="8000" />
+      <workItem from="1567386233901" duration="9607000" />
+      <workItem from="1567644000713" duration="63000" />
+      <workItem from="1567693855423" duration="2947000" />
+      <workItem from="1568035837761" duration="608000" />
+      <workItem from="1568295058783" duration="4845000" />
+      <workItem from="1568372572049" duration="165000" />
+      <workItem from="1568618396936" duration="951000" />
+      <workItem from="1569049665861" duration="9000" />
+      <workItem from="1569298933610" duration="16633000" />
+      <workItem from="1569457651259" duration="40000" />
+      <workItem from="1569673052607" duration="2620000" />
+      <workItem from="1569833270992" duration="5056000" />
+      <workItem from="1569894225131" duration="2921000" />
+      <workItem from="1570064813647" duration="379000" />
+      <workItem from="1570065744144" duration="9629000" />
+      <workItem from="1570075956300" duration="2197000" />
+      <workItem from="1570097657899" duration="3361000" />
+      <workItem from="1570101083543" duration="2235000" />
+      <workItem from="1570103586633" duration="66000" />
+      <workItem from="1570103702123" duration="2616000" />
+      <workItem from="1570526028455" duration="19000" />
+      <workItem from="1571207543083" duration="4472000" />
+      <workItem from="1571461597606" duration="1010000" />
+      <workItem from="1571474510372" duration="375000" />
+      <workItem from="1571484123698" duration="31000" />
+      <workItem from="1571557360669" duration="260000" />
+      <workItem from="1571621998676" duration="2888000" />
+      <workItem from="1571656607049" duration="19236000" />
+      <workItem from="1571728828307" duration="3621000" />
+      <workItem from="1571734505808" duration="950000" />
+      <workItem from="1571796944648" duration="20512000" />
+      <workItem from="1571918800292" duration="13403000" />
+      <workItem from="1572081199881" duration="38097000" />
+      <workItem from="1572231573348" duration="1523000" />
+      <workItem from="1572233652386" duration="9886000" />
+      <workItem from="1572307694134" duration="9945000" />
+      <workItem from="1572490334574" duration="734000" />
+      <workItem from="1572854802222" duration="2681000" />
+      <workItem from="1572929395837" duration="1433000" />
+      <workItem from="1572930865666" duration="7628000" />
+      <workItem from="1573041953514" duration="25065000" />
+      <workItem from="1574151877593" duration="301000" />
+      <workItem from="1574657048306" duration="3749000" />
+      <workItem from="1574733561129" duration="5000" />
+      <workItem from="1574733825462" duration="1329000" />
+      <workItem from="1575357443929" duration="6005000" />
+      <workItem from="1575459476748" duration="2023000" />
+      <workItem from="1575597425860" duration="1213000" />
+      <workItem from="1575961315862" duration="619000" />
+      <workItem from="1576029305442" duration="605000" />
+      <workItem from="1576056031355" duration="1205000" />
+      <workItem from="1576646175680" duration="2572000" />
+      <workItem from="1578725793859" duration="237000" />
+      <workItem from="1580452853998" duration="15497000" />
+      <workItem from="1583483298989" duration="75000" />
+      <workItem from="1583483422085" duration="238000" />
+      <workItem from="1583483749558" duration="95000" />
+      <workItem from="1583483882518" duration="5553000" />
+      <workItem from="1583655390413" duration="6674000" />
+      <workItem from="1583804758614" duration="48000" />
+      <workItem from="1583805300898" duration="1253000" />
+      <workItem from="1583807741349" duration="1856000" />
+      <workItem from="1583830493758" duration="7204000" />
+      <workItem from="1584087773339" duration="88000" />
+      <workItem from="1584153796579" duration="9145000" />
+      <workItem from="1584242236948" duration="38000" />
+      <workItem from="1584343368185" duration="44000" />
+      <workItem from="1584413516389" duration="976000" />
+      <workItem from="1584497287044" duration="325000" />
+      <workItem from="1584498373825" duration="54000" />
+      <workItem from="1584498809713" duration="1375000" />
+      <workItem from="1584500240620" duration="2425000" />
+      <workItem from="1584503500820" duration="110000" />
+      <workItem from="1584531917343" duration="49000" />
+      <workItem from="1584531972141" duration="19000" />
+      <workItem from="1584533325292" duration="7000" />
+      <workItem from="1584533350287" duration="9000" />
+      <workItem from="1584673595976" duration="49000" />
+      <workItem from="1584890628800" duration="1113000" />
+      <workItem from="1587197742289" duration="321000" />
+      <workItem from="1587198105658" duration="13000" />
+      <workItem from="1587198232758" duration="9000" />
+      <workItem from="1587199906453" duration="67000" />
+      <workItem from="1591777084503" duration="468000" />
+      <workItem from="1592332992896" duration="623000" />
+      <workItem from="1592615149029" duration="2933000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat:mybatis等test">
+      <created>1564911463497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564911463498</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat:根据数据库导出Bean">
+      <created>1565007420074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565007420074</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 39-44test">
+      <created>1571557439569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571557439569</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: 45test&#10;docs: 将所有的代码以包名+testN的形式组织，同时添加文档注释">
+      <created>1571716822340</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571716822340</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 46-47test&#10;docs: 将所有的代码的文档描述注释生成到了readme中">
+      <created>1571722016476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571722016476</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: readme有错，重新提交">
+      <created>1571722189467</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571722189467</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: 48test(类似按键精灵的程序)">
+      <created>1572229498705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572229498705</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: 50test">
+      <created>1573353040990</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573353040990</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: 57test+">
+      <created>1584890849513</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584890849513</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test36Test - 2019.08.07 at 11h 06m 58s.xml">
+      <configuration name="Test36Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="389112000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48923078" visible="true" weight="0.25567323" />
+      <window_info id="Structure" order="1" sideWeight="0.51076925" side_tool="true" weight="0.2927383" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50769234" side_tool="true" weight="0.21028744" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27384615" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3430769" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3276923" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4476923" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" weight="0.32923076" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.48153847" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.45692307" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32996634" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49848714" weight="0.2723077" />
+      <window_info anchor="bottom" id="REST Client" order="16" sideWeight="0.49848714" weight="0.48153847" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.3276923" />
+      <window_info anchor="bottom" id="Analyze Dataflow from" order="18" weight="0.3276923" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="19" weight="0.3276923" />
+      <window_info anchor="bottom" id="Analyze Dataflow to" order="20" weight="0.3276923" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.8641189" weight="0.24810892" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4076923" weight="0.21331316" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Coverage" order="12" sideWeight="0.5010571" side_tool="true" weight="0.12556732" />
+      <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="13" sideWeight="0.13588111" side_tool="true" weight="0.2730711" />
+      <window_info anchor="right" x="92" y="92" width="1182" height="584" id="DSM" order="14" type="FLOATING" />
+      <window_info anchor="right" id="Remote Host" order="15" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48923078" visible="true" weight="0.1860817" />
+      <window_info id="Structure" order="1" sideWeight="0.51076925" side_tool="true" weight="0.2927383" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50769234" side_tool="true" weight="0.21028744" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2276923" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3430769" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3276923" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4476923" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" weight="0.32923076" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.48153847" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.45692307" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32996634" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49848714" weight="0.2723077" />
+      <window_info anchor="bottom" id="REST Client" order="16" sideWeight="0.49848714" weight="0.48153847" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.3276923" />
+      <window_info anchor="bottom" id="Analyze Dataflow from" order="18" weight="0.3276923" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="19" weight="0.3276923" />
+      <window_info anchor="bottom" id="Analyze Dataflow to" order="20" weight="0.3276923" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.8641189" weight="0.24810892" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4076923" weight="0.21331316" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Coverage" order="12" sideWeight="0.5010571" side_tool="true" weight="0.12556732" />
+      <window_info anchor="right" x="0" y="0" width="295" height="584" id="Documentation" order="13" sideWeight="0.13588111" side_tool="true" weight="0.2730711" />
+      <window_info anchor="right" x="92" y="92" width="1182" height="584" id="DSM" order="14" type="FLOATING" />
+      <window_info anchor="right" id="Remote Host" order="15" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:mybatis等test" />
+    <MESSAGE value="feat:根据数据库导出Bean" />
+    <MESSAGE value="feat: 35-38test" />
+    <MESSAGE value="feat: 39-44test" />
+    <MESSAGE value="feat: 45test&#10;docs: 将所有的代码以包名+testN的形式组织，同时添加文档注释" />
+    <MESSAGE value="feat: 46-47test&#10;docs: 将所有的代码的文档注释生成到了readme中" />
+    <MESSAGE value="feat: 46-47test&#10;docs: 将所有的代码的文档描述注释生成到了readme中" />
+    <MESSAGE value="fix: readme有错，重新提交" />
+    <MESSAGE value="feat: 48test(类似按键精灵的程序)" />
+    <MESSAGE value="feat: 49test 使用类加载机和编译器编译加载类&#10;feat: 48test 添加图片定位功能" />
+    <MESSAGE value="feat: 50test" />
+    <MESSAGE value="feat: 57test+" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 57test+" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pratice$Test42.ic" NAME="Test42 Coverage Results" MODIFIED="1569841569015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>person.liming.test.test42.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Pratice$Test31.ic" NAME="Test31 Coverage Results" MODIFIED="1564811285694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>person.liming.test.test31.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/file/java/Train.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test35/generator/BeanGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test35/database/databaseJava/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/JavaBeanGetSetTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test35/generator/generatorImpl/JavaBeanTemplateGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test35/Test35.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test35/generator/generatorImpl/JavaBeanJointGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/beanGenerator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test8/TrafficLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test8/Test8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test13/Test13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test13/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test35/util/FieldTypeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test35/database/DatabaseConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test50/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test44/Test44.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test40/Test40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test43/RenameTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test33/Test33.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test26/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/student.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/stu.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/server_stu.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/stu.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/JavaBeanTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/currentDirInfo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/class.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test26/Test26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test49/Test49.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test1/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test2/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/jdk1.8.0_221/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test38/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test42/Creator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test15/DataAdditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test42/Test42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test15/Test15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test12/Test12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test21/Test21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test21/ServerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test21/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test21/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test57/Test57.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test56/Test56.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test55/Test55.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JDK8/jdk1.8.0_221/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="209">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test58/Test58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/person/liming/test/test47/Test47.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="56" column="57" lean-forward="true" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Pratice:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Pratice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.17</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -114,5 +114,10 @@
           <artifactId>jxl</artifactId>
           <version>2.6.12</version>
       </dependency>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>2.9.0</version>
+    </dependency>
   </dependencies>
 </project>
